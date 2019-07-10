@@ -1,0 +1,101 @@
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bg4.gif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header{
+    width: 80%;
+    background-color: white;
+    box-shadow: 0px 0px 40px black;
+    text-align: center;
+    display: block;
+    margin: auto;
+    height: 1500px;
+}
+
+#yo{
+    transform: scale(0.65, 0.65);
+    left: 6%;
+    position: center;
+    float: left;
+    top: -20px;
+}
+
+#nombre{
+    text-align: left;
+    position: relative;
+    left: 75px;
+    top: 50px;
+    font-family: 'pasifico', Harlow Solid Italic, cursive;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+.datos{
+    font-family: 'lato',sans-serif;
+    font-weight: 300;
+    font-size: 1.4em;
+    position: relative;
+    left: 75px;
+    text-align: left;
+    top: 60px;
+    line-height: 35px;
+ }
+
+.dato a{
+    color:aqua;
+    text-decoration: none;
+}
+
+#info{
+   
+    top: 150px;
+    text-align: left;
+    width: 1000px;
+    left: -200px;
+    padding-left: 25%;
+    
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-family:  ;
+    font-size: 1em;
+    text-align: justify;
+    padding: 25px 0 25px 0;
+}
+
+
+#fb{
+    height: 19px;
+    width: 19px;
+}
+
+.titulos{
+    font-family: Time New Roman;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.contenido{
+    font-family: 'Lato', Time New Roman;
+    font-size: 1.5em;
+    font-weight: 200;
+    padding-bottom: 60px;
+}
+
+footer{
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-family: 'Lato',sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    padding: 25px 0 25px 0;
+}
